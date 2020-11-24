@@ -1,0 +1,32 @@
+:root {
+  --blue: #00376C;
+  --pink: #851942;
+  --gray: #707070;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+  outline: 0;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+ }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--gray);
+}
+
+.app {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+
+@media (min-width: 1280px) {
+  .app {
+    max-width: 1000px;
+  }
+}

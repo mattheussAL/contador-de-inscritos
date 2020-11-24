@@ -1,0 +1,19 @@
+.container {
+  margin-top: 24px;
+}
+
+.container .text {
+  text-align: justify;
+}
+
+.contianer .subs {
+  font-weight: bold;
+}
+
+.container .subs .count {
+  font-size: 130px;
+}
+
+.container .subs .label {
+  font-size: 40px;
+}

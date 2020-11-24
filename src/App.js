@@ -1,9 +1,19 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Body from './Layout';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <h1>Hello Word</h1>
+    <Router>
+      <Body>
+        <Switch>
+          <Route exact path="/" component={Home}></Route>
+        </Switch>
+      </Body>
+    </Router>
   );
-}
+};
 
 export default App;

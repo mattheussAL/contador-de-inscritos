@@ -1,0 +1,11 @@
+/* <== Conf and Global ==> */
+@import './conf';
+@import './global.scss';
+
+/* <== Components ==> */ 
+@import '../../components/Header/style.scss';
+@import '../../components/Progress/style.scss';
+@import '../../components/Footer/style.scss';
+
+/* <== Pages ==>*/
+@import '../../pages/Home/style.scss';
